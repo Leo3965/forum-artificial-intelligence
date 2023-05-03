@@ -1,0 +1,41 @@
+.login__ai {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 20px;
+
+    width: 10%;
+    height: 35px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+.icon-wrapper__ai {
+    display: flex;
+    gap: 10px;
+}
+
+.text__ai {
+    color: #ACACAC;
+}
+
+.button__ai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 89px;
+    height: 35px;
+    background-color: #FF7000;
+    border-radius: 30px;
+}
+
+.icon__ai {
+    height: 30px;
+    min-width: 30px;
+    color: #ACACAC;
+}

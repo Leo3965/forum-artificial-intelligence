@@ -1,15 +1,13 @@
-import Header from "./compoenents/Header";
-import Body from "./compoenents/Body";
-import Footer from "./compoenents/Footer";
+import Header from "./components/Header/Header";
 
 import "./Home.css";
+import Body from "./components/Body";
 
 function Home() {
     return (
-        <div>
+        <div className="home">
             <Header/>
             <Body/>
-            <Footer/>
         </div>
     );
 }

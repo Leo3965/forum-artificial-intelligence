@@ -1,0 +1,24 @@
+.header__ai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 10%;
+    gap: 20%;
+    isolation: isolate;
+
+    width: 100%;
+    height: 59px;
+    left: 0;
+    top: 0;
+
+    background: #06071B;
+    box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.icon__ai {
+    z-index: 10;
+    height: 30px;
+    min-width: 30px;
+    color: #ACACAC;
+}

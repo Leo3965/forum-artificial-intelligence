@@ -1,0 +1,30 @@
+.link__ai {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: 30px;
+
+    width: 40%;
+    height: 18px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.link__item__active {
+    color: #FF7000;
+    text-decoration: none;
+}
+
+.link__item {
+    color: #ACACAC;
+    text-decoration: none;
+}
+
+.link__item:hover {
+    color: #ffa363;
+}
