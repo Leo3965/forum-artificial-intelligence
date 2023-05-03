@@ -1,0 +1,16 @@
+.text-content {
+    max-width: 90%;
+
+    font-size: 1rem;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.small {
+    font-size: 12px;
+    text-align: left;
+}

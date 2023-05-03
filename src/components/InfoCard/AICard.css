@@ -1,0 +1,45 @@
+.aicard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+
+    position: absolute;
+    width: 90%;
+    padding: 2rem;
+
+    background: #06071B;
+    border:1px solid #ffffff;
+    box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+
+    transform: translate(0%, -15%);
+}
+
+.card__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sub-cards {
+    display: flex;
+    max-width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sub-card {
+    display: flex;
+    gap: 10%;
+}
+
+.robot__ai {
+    height: 40%;
+    max-width: 12%;
+    transform: translate(8%, 7%);
+}

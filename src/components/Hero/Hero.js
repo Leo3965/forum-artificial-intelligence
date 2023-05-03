@@ -1,4 +1,6 @@
 import "./Hero.css";
+import SubTitle from "../../UI/SubTitle";
+import Title1 from "../../UI/Title1";
 
 const Hero = () => {
     return (
@@ -6,12 +8,12 @@ const Hero = () => {
             <div className="container__ai">
                 <div className="grid-1">
                     <section className="section__ai">
-                        <div className="sub-title__ai">AI & Robotics</div>
-                        <div className="title__ai">
+                        <SubTitle>AI & Robotics</SubTitle>
+                        <Title1>
                             Next Level <br/>
                             Machine <br/>
                             Intelligence
-                        </div>
+                        </Title1>
                     </section>
                 </div>
                 <div className="grid-2"></div>

@@ -4,7 +4,7 @@
     position: relative;
 
     /* Center and scale the image nicely */
-    background: linear-gradient(180deg, #06071B -1.51%, rgba(6, 7, 27, 0) 85.21%), url("../../imgs/pexels-alex-knight-2599244.jpg") no-repeat center;
+    background: linear-gradient(180deg, #06071B -1.51%, rgba(6, 7, 27, 0) 85.21%), url("../../imgs/robot-background.svg") no-repeat center;
     background-size: cover;
 
     font-family: 'Inter', sans-serif;
@@ -17,25 +17,6 @@
     margin-top: 5%;
     margin-left: 5%;
     max-width: 95%;
-}
-
-.sub-title__ai {
-    color: #FF7000;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    font-style: normal;
-    letter-spacing: 2.7px;
-}
-
-.title__ai {
-    font-family: 'Coolvetica', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 62px;
-    line-height: 150%;
-    letter-spacing: 0.02rem;
-    color: #ffffff;
 }
 
 .font-size-normal {
