@@ -1,7 +1,7 @@
-import Header from "./components/Header/Header";
+import Header from "../components/Header/Header";
 
 import "./Home.css";
-import Body from "./components/Body";
+import Body from "../components/Body";
 
 function Home() {
     return (

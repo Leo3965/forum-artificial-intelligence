@@ -1,5 +1,4 @@
 import {Globe} from "react-bootstrap-icons";
-import Button from 'react-bootstrap/Button';
 
 import "./Login.css";
 
@@ -10,7 +9,7 @@ const Login = () => {
                 <Globe className="icon__ai"/>
                 <span className="text__ai">EN</span>
             </div>
-            <Button className="button__ai">Login</Button>
+            <button className="button__ai">Login</button>
         </div>
     );
 };
