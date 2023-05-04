@@ -1,0 +1,11 @@
+.aitextarea {
+    width: 100%;
+    background: #3F1F55;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 91px;
+    gap: 3rem;
+    border-radius: 15px;
+}

@@ -1,0 +1,22 @@
+.aivideo {
+    background: #181234;
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 0;
+
+    display: flex;
+    gap: 6rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.videotext {
+    display: flex;
+    flex-direction: column;
+}
+
+.videoplayer {
+    width:90%;
+    height: 70%;
+}

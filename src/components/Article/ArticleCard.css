@@ -1,0 +1,16 @@
+.articlecard {
+    display: flex;
+    padding: 0 3%;
+    gap: 3%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.aiimg {
+    height: 451px;
+    width: 540px;
+}
+
+.aitext {
+
+}

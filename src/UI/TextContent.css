@@ -12,5 +12,8 @@
 
 .small {
     font-size: 12px;
+}
+
+.align {
     text-align: left;
 }

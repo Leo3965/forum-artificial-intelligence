@@ -1,0 +1,16 @@
+.aiinfo {
+    position: relative;
+    background: #181234;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px;
+}
+
+.imgAi {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 396px;
+}

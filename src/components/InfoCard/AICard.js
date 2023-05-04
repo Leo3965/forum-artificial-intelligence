@@ -1,5 +1,5 @@
 import "./AICard.css";
-import Robot from "../../imgs/robot.svg";
+import Robot from "../../imgs/robot-head.svg";
 
 import SubTitle from "../../UI/SubTitle";
 import Title2 from "../../UI/Title2";
@@ -40,7 +40,7 @@ const AICard = () => {
                     <Lightbulb size={90} color="#FF7000"/>
                     <div>
                         <Title3>Lorem Ipsum</Title3>
-                        <TextContent className="small">
+                        <TextContent className="small align">
                             Suspendisse vulputate suscipit est ac molestie. Suspendisse faucibus est at hendrerit
                             fringilla. Donec efficitur porta massa, vitae imperdiet justo vehicula nec.
                         </TextContent>
