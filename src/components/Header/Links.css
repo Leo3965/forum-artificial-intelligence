@@ -36,3 +36,19 @@
 .link__item:hover {
     color: #FF7000;
 }
+
+@media screen and (max-width: 420px){
+    .link__ai {
+        gap: 1rem;
+        width: 0;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .link__ai {
+        gap: 1rem;
+        width: 0;
+        font-size: 14px;
+    }
+}

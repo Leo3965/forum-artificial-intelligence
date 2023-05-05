@@ -17,10 +17,13 @@
 .icon-wrapper__ai {
     display: flex;
     gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .text__ai {
     color: #ACACAC;
+    cursor: pointer;
 }
 
 .button__ai {
@@ -34,13 +37,85 @@
     border-radius: 30px;
 }
 
-.button-purple {
-    background-color: #EF09DA;
-    color: #d5d5d5;
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
 }
 
-.icon__ai {
-    height: 30px;
-    min-width: 30px;
-    color: #ACACAC;
+.button-arounder.button-purple {
+    background: hsl(305, 93%, 49%);
+}
+
+.button-arounder {
+    border: solid 2px black;
+    font-size: 1rem;
+    padding: .375em 1.125em;
+    background: hsl(26, 100%, 50%);
+    color: hsl(190deg, 10%, 95%);
+
+    cursor: pointer;
+
+    box-shadow: 0 0 0 hsla(190deg, 15%, 5%, .2);
+    transform: translateY(0);
+    border-radius: 8px;
+
+    --dur: .15s;
+    --delay: .15s;
+    --radius: 16px;
+
+    transition: border-top-left-radius var(--dur) var(--delay) ease-out,
+    border-top-right-radius var(--dur) calc(var(--delay) * 2) ease-out,
+    border-bottom-right-radius var(--dur) calc(var(--delay) * 3) ease-out,
+    border-bottom-left-radius var(--dur) calc(var(--delay) * 4) ease-out,
+    box-shadow calc(var(--dur) * 4) ease-out,
+    transform calc(var(--dur) * 4) ease-out,
+    background calc(var(--dur) * 4) steps(4, jump-end);
+}
+
+.button-arounder:hover,
+.button-arounder:focus {
+    box-shadow: 0 4px 8px hsla(190deg, 15%, 5%, .2);
+    transform: translateY(-4px);
+    background: hsl(230deg, 50%, 45%);
+    border-radius: var(--radius);
+}
+
+@media screen and (max-width: 420px){
+    .login__ai {
+        width: auto;
+    }
+
+    .text__ai {
+        font-size: 8px;
+    }
+
+    .buttons-container {
+        padding: 0;
+    }
+
+    .button-arounder {
+        font-size: 12px;
+        padding: 0.175em 0.825em;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .login__ai {
+        width: auto;
+    }
+
+    .text__ai {
+        font-size: 10px;
+    }
+
+    .buttons-container {
+        padding: 0;
+    }
+
+    .button-arounder {
+        font-size: 14px;
+        padding: 0.375em 1.025em;
+    }
 }

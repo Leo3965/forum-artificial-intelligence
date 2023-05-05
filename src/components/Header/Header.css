@@ -15,3 +15,25 @@
     min-width: 30px;
     color: #ACACAC;
 }
+
+@media screen and (max-width: 420px){
+    .header__ai {
+        gap: 3rem;
+    }
+
+    .icon__ai {
+        height: 20px;
+        min-width: 20px;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .header__ai {
+        gap: 3rem;
+    }
+
+    .icon__ai {
+        height: 25px;
+        min-width: 25px;
+    }
+}

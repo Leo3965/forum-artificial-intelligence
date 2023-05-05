@@ -21,12 +21,6 @@
     height: 100%;
 }
 
-@media screen and (max-width: 60em) {
-    .container__ai {
-        grid-template-rows: repeat(4, 1fr);
-    }
-}
-
 .purple {
     color: #EF09DA;
 }
@@ -39,16 +33,6 @@
     grid-row: 1;
 }
 
-@media screen and (max-width: 60em) {
-    .grid-1 {
-        -ms-grid-column: 1;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        -ms-grid-row: 1;
-        grid-row: 1;
-    }
-}
-
 .grid-2 {
     -ms-grid-column: 3;
     grid-column-start: 3;
@@ -57,32 +41,12 @@
     grid-row: 1;
 }
 
-@media screen and (max-width: 60em) {
-    .grid-2 {
-        -ms-grid-column: 1;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        -ms-grid-row: 2;
-        grid-row: 2;
-    }
-}
-
 .grid-3 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     grid-column-end: 3;
     -ms-grid-row: 2;
     grid-row: 2;
-}
-
-@media screen and (max-width: 60em) {
-    .grid-3 {
-        -ms-grid-column: 1;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        -ms-grid-row: 3;
-        grid-row: 3;
-    }
 }
 
 .grid-4 {
@@ -94,16 +58,6 @@
     max-width: 90%;
 }
 
-@media screen and (max-width: 60em) {
-    .grid-4 {
-        -ms-grid-column: 1;
-        grid-column-start: 1;
-        grid-column-end: 5;
-        -ms-grid-row: 4;
-        grid-row: 4;
-    }
-}
-
 .card__ai {
     max-width: 90%;
     margin: 10% auto 0 auto;
@@ -113,4 +67,42 @@
 
 .card-footer__ai {
     color: #ACACAC;
+}
+
+@media screen and (max-width: 60em) {
+    .container__ai {
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .grid-1 {
+        -ms-grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        -ms-grid-row: 1;
+        grid-row: 1;
+    }
+
+    .grid-2 {
+        -ms-grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        -ms-grid-row: 2;
+        grid-row: 2;
+    }
+
+    .grid-3 {
+        -ms-grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        -ms-grid-row: 3;
+        grid-row: 3;
+    }
+
+    .grid-4 {
+        -ms-grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        -ms-grid-row: 4;
+        grid-row: 4;
+    }
 }
