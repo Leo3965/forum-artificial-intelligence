@@ -2,14 +2,13 @@ import "./Links.css";
 import {Link} from "react-router-dom";
 import {useState} from "react";
 
-const Links = () => {
-    const currentPath = document.URL.split('/')[3];
-    const activeItemCss = "link__item__active";
+const Links = ({color}) => {
+    const activeItemCss = "link__item__active " + color;
     const itemCss = "link__item";
 
     const [linkStyle, setLinkStyle] = useState({
-        home: currentPath === "" ? activeItemCss : itemCss,
-        about: currentPath === "about" ? activeItemCss : itemCss
+        home: color === "orange" ? activeItemCss : itemCss,
+        about: color === "purple" ? activeItemCss : itemCss
     });
     const handleLinkClick = (link) => {
         const currentLink = link.target.innerText.toLowerCase();

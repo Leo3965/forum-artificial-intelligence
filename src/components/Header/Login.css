@@ -34,6 +34,11 @@
     border-radius: 30px;
 }
 
+.button-purple {
+    background-color: #EF09DA;
+    color: #d5d5d5;
+}
+
 .icon__ai {
     height: 30px;
     min-width: 30px;

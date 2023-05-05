@@ -15,7 +15,7 @@ const AIVideo = () => {
             </div>
             <iframe className="videoplayer"
                     title="video"
-                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    src="https://www.youtube.com/embed/6OKXZ0aF8UQ">
             </iframe>
         </section>
     );

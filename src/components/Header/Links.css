@@ -15,6 +15,10 @@
     z-index: 1;
 }
 
+.purple {
+    color: #EF09DA;
+}
+
 .link__item__active {
     color: #FF7000;
     text-decoration: none;
