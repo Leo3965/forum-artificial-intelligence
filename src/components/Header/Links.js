@@ -3,8 +3,8 @@ import {Link} from "react-router-dom";
 import {useState} from "react";
 
 const Links = ({color}) => {
-    const activeItemCss = "link__item__active " + color;
-    const itemCss = "link__item";
+    const activeItemCss = "link__item__active " + color + "-link";
+    const itemCss = "link__item " + color + "-link";
 
     const [linkStyle, setLinkStyle] = useState({
         home: color === "orange" ? activeItemCss : itemCss,

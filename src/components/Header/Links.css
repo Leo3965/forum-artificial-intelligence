@@ -15,7 +15,7 @@
     z-index: 1;
 }
 
-.purple {
+.link__item__active.purple-link {
     color: #EF09DA;
 }
 
@@ -27,6 +27,10 @@
 .link__item {
     color: #ACACAC;
     text-decoration: none;
+}
+
+.link__item.purple-link:hover {
+    color: #EF09DA;
 }
 
 .link__item:hover {
