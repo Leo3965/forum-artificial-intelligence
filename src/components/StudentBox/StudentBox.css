@@ -1,4 +1,5 @@
 .student-box {
+    box-sizing: border-box;
     width: 100%;
     min-height: 100vh;
     background-color: #06071B;
@@ -12,7 +13,22 @@
 }
 
 .student-cards {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .student-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .student-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

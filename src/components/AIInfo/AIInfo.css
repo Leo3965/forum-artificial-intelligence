@@ -5,12 +5,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 120px;
 }
 
 .imgAi {
     position: absolute;
-    left: 0;
+    left: -50px;
     bottom: 0;
     height: 396px;
+}
+
+@media screen and (max-width: 940px) {
+    .imgAi {
+        height: 296px;
+        left: -70px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .imgAi {
+        left: -42px;
+        bottom: -130px;
+    }
 }

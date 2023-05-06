@@ -2,17 +2,18 @@ import "./AboutHero.css";
 import SubTitle from "../../UI/SubTitle";
 import Title1 from "../../UI/Title1";
 
-const AboutHero = () => {
+const AboutHero = ({hero}) => {
+    const titlesElement = hero.titles.map((t, index) => {
+        return (<Title1 key={index}>{t}</Title1>);
+    });
+
     return (
         <div className="about-hero">
             <div className="container__ai">
                 <div className="grid-1">
                     <section className="section__ai">
-                        <SubTitle className="purple"> A3 </SubTitle>
-                        <Title1>
-                            Inglês Instrumental &<br/>
-                            Conectividade
-                        </Title1>
+                        <SubTitle className="purple">{hero.subTitle}</SubTitle>
+                        {titlesElement}
                     </section>
                 </div>
                 <div className="grid-2"></div>

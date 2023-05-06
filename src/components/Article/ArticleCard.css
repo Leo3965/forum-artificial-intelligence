@@ -1,16 +1,26 @@
 .articlecard {
+    box-sizing: border-box;
     display: flex;
-    padding: 0 3%;
-    gap: 3%;
+    padding: 0 3rem;
+    gap: 3rem;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .aiimg {
-    height: 451px;
     width: 540px;
 }
 
-.aitext {
+@media screen and (max-width: 940px) {
+    .aiimg {
+        width: 340px;
+    }
+}
 
+@media screen and (max-width: 420px) {
+    .articlecard {
+        flex-direction: column;
+        align-items: center;
+    }
 }

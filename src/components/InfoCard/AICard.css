@@ -10,7 +10,7 @@
     padding: 2rem;
 
     background: #06071B;
-    border:1px solid #ffffff;
+    border: 1px solid #ffffff;
     box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(2px);
     border-radius: 15px;
@@ -38,6 +38,12 @@
     gap: 10%;
 }
 
+.ai-icon {
+    height: 90px;
+    width: 90px;
+    color: #FF7000;
+}
+
 .robot__ai {
     position: absolute;
     bottom: 11px;
@@ -46,4 +52,30 @@
     height: 40%;
     max-width: 12%;
     transform: translate(8%, 7%);
+}
+
+@media screen and (max-width: 940px) {
+    .aicard {
+        width: 80%;
+        padding: 24px;
+    }
+
+    .ai-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .robot__ai {
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .aicard {
+        padding: 16px;
+    }
+
+    .robot__ai {
+        height: 10%;
+    }
 }

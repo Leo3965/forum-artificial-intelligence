@@ -1,10 +1,10 @@
 import "./InfoCard.css";
 import AICard from "./AICard";
 
-const InfoCard = () => {
+const InfoCard = ({aiInfo}) => {
     return (
         <div className="info-card">
-            <AICard/>
+            <AICard aiInfo={aiInfo}/>
         </div>
     );
 };

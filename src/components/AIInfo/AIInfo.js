@@ -3,10 +3,10 @@ import AITextArea from "./AITextArea";
 
 import Robot from "../../imgs/robot.svg";
 
-const AIInfo = () => {
+const AIInfo = ({article}) => {
     return (
         <div className="aiinfo">
-            <AITextArea/>
+            <AITextArea article={article}/>
             <img className="imgAi" src={Robot} alt="nothing else metter"/>
         </div>
     );

@@ -21,3 +21,21 @@
     height: 70%;
     border-radius: 14px;
 }
+
+@media screen and (max-width: 940px) {
+    .aivideo {
+        padding: 4rem 0 0 0;
+    }
+
+    .videoplayer {
+        width: 80%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .videoplayer {
+        width: 70%;
+        height: 35%;
+    }
+}

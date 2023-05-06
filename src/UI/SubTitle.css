@@ -6,3 +6,16 @@
     font-style: normal;
     letter-spacing: 3px;
 }
+
+
+@media screen and (max-width: 940px) {
+    .subtitle {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .subtitle {
+        font-size: 8px;
+    }
+}

@@ -17,3 +17,23 @@
 .align {
     text-align: left;
 }
+
+@media screen and (max-width: 940px) {
+    .text-content {
+        font-size: 12px;
+    }
+
+    .small {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .text-content {
+        font-size: 10px;
+    }
+
+    .small {
+        font-size: 7px;
+    }
+}
