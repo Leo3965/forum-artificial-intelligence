@@ -14,41 +14,59 @@ const English = {
         about: "About"
     },
     home: {
-        subTitle: "AI & Robotics",
-        titles: ["Next Level", "Machine Intelligence"],
+        subTitle: "A3 - Artificial Intelligence",
+        titles: ["Instrumental English", "and Connectivity"],
         aiInfo: {
-            subTitle: "WHO WE ARE",
-            title: "We Help To Get Solutions",
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nunc lorem, rutrum id enim a, " +
-                "efficitur hendrerit dui. Quisque et ullamcorper felis, id interdum turpis. Nunc mi dolor, varius sit  amet " +
-                "ipsum finibus, interdum accumsan purus. Nulla elit urna, venenatis ac imperdiet id, rhoncus",
+            subTitle: "AI fundamentals",
+            title: "What is Artificial Intelligence?",
+            content: "There are a number of different forms of learning as applied to artificial intelligence. The simplest is learning by trial and error. For example, a simple computer program for solving mate-in-one chess problems might try moves at random until a mate is found. The program might then store the solution with the position so that the next time the computer encountered the same position, it would recall the solution. This simple memorizing of individual items and procedures known as rote learning is relatively easy to implement on a computer. More challenging is the problem of implementing what is called generalization. Generalization involves applying past experience to analogous new situations. For example, a program that learns the past tense of regular English verbs by rote will not be able to produce the past tense of a word such as jump unless it previously had been presented with jumped, whereas a program that is able to generalize can learn the “add ed” rule and so form the past tense of jump based on experience with similar verbs",
             info1: {
-                title: "Lorem Ipsum",
-                content: "Suspendisse vulputate suscipit est ac molestie. Suspendisse faucibus est at hendrerit " +
-                    "fringilla. Donec efficitur porta massa, vitae imperdiet justo vehicula nec."
+                title: "instinctual",
+                content: "All but the simplest human behavior is ascribed to intelligence (instinctual), while even the most complicated insect behavior is never taken as an indication of intelligence"
             },
             info2: {
-                title: "Lorem Ipsum",
-                content: "Suspendisse vulputate suscipit est ac molestie. Suspendisse faucibus est at hendrerit",
+                title: "Psychologists",
+                content: "generally do not characterize human intelligence by just one trait but by the combination of many diverse abilities. Research in AI has focused chiefly on the following components of intelligence: learning, reasoning, problem-solving, perception, and using language",
             }
         },
         cards: [{
-            subTitle: "Lorem",
-            title: "AI Robots Technology",
-            content: "Nunc at dolor mollis, pulvinar nisi vitae, finibus nunc. Fusce ultrices purus orci, eget porttitor" +
-                " mauris blandit non. Morbi consequat erat diam, vitae rutrum urna venenatis non. Nunc tortor lacus, " +
-                "bibendum nec facilisis in, sodales vitae metus. Nullam suscipit quis leo a hendrerit. Duis vel elit " +
-                "sapien. Pellentesque luctus suscipit dignissim. Etiam efficitur tortor leo, imperdiet consequat odio " +
-                "molestie eu. Nullam et ipsum vehicula, molestie orci vitae, tristique arcu. Curabitur eget aliquam " +
-                "libero, at egestas felis. Mauris ac vulputate erat. Fusce turpis nulla, lobortis a rhoncus condimentum," +
-                " fringilla vitae neque. Phasellus mollis vehicula fermentum.",
+            subTitle: "ML",
+            title: "Machine learning",
+            content: "is a line of study inside the AI umbrella, where the machine uses data to learn how to do a task without being specifically programmed to. The ML allows the computer to “learn” how to do a task in its most efficient way",
             image: AiGlobe
         }, {
-            subTitle: "Lorem",
-            title: "AI Robots Technology",
-            content: "Nunc at dolor mollis, pulvinar nisi vitae, finibus nunc. Fusce ultrices purus orci, eget porttitor mauris blandit non. Morbi consequat erat diam, vitae rutrum urna venenatis non. Nunc tortor lacus, bibendum nec facilisis in, sodales vitae metus. Nullam suscipit quis leo a hendrerit. Duis vel elit sapien. Pellentesque luctus suscipit dignissim. Etiam efficitur tortor leo, imperdiet consequat odio molestie eu. Nullam et ipsum vehicula, molestie orci vitae, tristique arcu. Curabitur eget aliquam libero, at egestas felis. Mauris ac vulputate erat. Fusce turpis nulla, lobortis a rhoncus condimentum, fringilla vitae neque. Phasellus mollis vehicula fermentum.",
+            subTitle: "DL",
+            title: "Deep learning",
+            content: "is a subcategory of Machine learning based on neural networks which allow the DL to learn from a large amount of data, making it more accurate",
             image: Ches
-        }],
+        }, {
+            subTitle: "NLP",
+            title: "Natural Language Processing",
+            content: "is a branch of AI that uses machine learning and Deep learning to translate the human form of communication to the machine, allowing the person’s message to be comprehended. One of the most common uses of the NLP is Speech recognition, which is when the machine converts the human voice into text data so that the computer can “understand” the command",
+            image: Ches
+        }
+        ],
+        textwrapper: [
+            {
+                title: "What is it for ?",
+                content: "Among the numerous objectives of artificial intelligence, the main one is to develop technologies that have the ability to simulate human actions and think logically.\n" +
+                    "And with that, create solutions for the most varied aspects of our life.\n" +
+                    "The modernization of companies is one of the most evident practical results of the use of these technologies.\n" +
+                    "However, there are many other areas enjoying those benefits, such as health with medical diagnostic programs, entertainment, automation, user service, online retail, predictive maintenance, games, computer programs, security applications for systems\n" +
+                    "information, robotics (helper robots), devices for reconnaissance\n" +
+                    "handwriting and voice recognition"
+            }, {
+            title: "How did it come about ?",
+                content: "Starting in the 1940s, research around this incipient science was developed just to try to find new functionalities for the computer, still in design. With the advent of World War II, the need also arose to develop technology to boost the war industry.\n" +
+                    "Over time, several lines of study of AI have emerged, one of which is biology, which studies the development of concepts that are intended to imitate human neural networks.\n" +
+                    "In fact, it was in the 60s when this science is called Artificial Intelligence and the biological line researchers believed that machines were possible to perform human tasks complex, like reasoning.\n" +
+                    "After a difficult period, the study of neural networks returns to the surface in the 1980s, but it is in the 1990s that she has a great impetus, truly consolidating it as the basis of studies on AI.\n" +
+                    "Alan Turing is considered the father of Artificial Intelligence for being a pioneer in suggesting that machines could do what humans do: use available information to solve problems and make decisions. This was the structure of his article \"Computing Machinery and Intelligence\", published in 1950 and in which the scientist discussed how to build intelligent machines and how to test this intelligence.\n" +
+                    "In the article, Turing described an “imitation game”, where a human should be able to distinguish in written dialogue whether he is talking to a man or a machine. Over the years, the material has come to be known as “the first source of questioning the boundary between human and machine”.\n" +
+                    "\n" +
+                    "“The Imitation Game”, a film starring Benedict Cumberbatch, is a biography of Alan Turing. The film shows how the scientist solved the Enigma Code, which the Germans used during the war to transmit coded messages"
+            }
+        ],
         aiVideo: {
             title: "Etiam Nulla Lectus Amet Nunc",
             content: "Neque, Puviram Vestiburum Non All quam",
@@ -62,7 +80,8 @@ const English = {
                 "In in magna nec libero gravida aliquet eget dictum lectus. Nulla blandit sagittis ipsum, ac mollis urna egestas a. Integer faucibus odio vel sapien convallis, et finibus tellus tristique. Nulla facilisi. Maecenas felis dui, faucibus ut tellus non, malesuada fermentum mauris. Etiam in imperdiet velit. Sed sit amet nisl libero. Sed ultricies nisi at ligula tincidunt eleifend. Sed pharetra nulla id ligula aliquet dictum. Donec sit amet ante eleifend, placerat est ac, laoreet odio. Duis malesuada quam sit amet leo ultricies, a volutpat neque auctor. Fusce finibus non ligula sit amet pulvinar. Suspendisse blandit tincidunt nisl, et varius risus. Nunc eget elit ac libero finibus tincidunt non a sapien.",
             ]
         }
-    }, about: {
+    },
+    about: {
         hero: {
             subTitle: "A3",
             titles: ["Inglês Instrumental &", "Conectividade"]

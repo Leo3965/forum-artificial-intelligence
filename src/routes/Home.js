@@ -10,6 +10,7 @@ import AIInfo from "../components/AIInfo/AIInfo";
 import {useState} from "react";
 import English from "../entities/English";
 import Portuguese from "../entities/Portuguese";
+import TextWrapper from "../components/TextContainer/TextWrapper";
 
 function Home() {
     const [language, setLanguage] = useState(English);
@@ -26,6 +27,7 @@ function Home() {
                 <Hero home={language.home}/>
                 <InfoCard aiInfo={language.home.aiInfo}/>
                 <Article cards={language.home.cards}/>
+                <TextWrapper textwrapper={language.home.textwrapper}/>
                 <AIVideo aiVideo={language.home.aiVideo}/>
                 <AIInfo article={language.home.article}/>
             </Body>
