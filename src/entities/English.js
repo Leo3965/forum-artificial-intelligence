@@ -30,41 +30,39 @@ const English = {
             }
         },
         cards: [{
-            subTitle: "ML",
-            title: "Machine learning",
-            content: "is a line of study inside the AI umbrella, where the machine uses data to learn how to do a task without being specifically programmed to. The ML allows the computer to “learn” how to do a task in its most efficient way",
+            subTitle: "",
+            title: "What is it for ?",
+            content: "Among the numerous objectives of artificial intelligence, the main one is to develop technologies that have the ability to simulate human actions and think logically. " +
+                "And with that, create solutions for the most varied aspects of our life. The modernization of companies is one of the most evident practical results of the use of these technologies. " +
+                "However, there are many other areas enjoying those benefits, such as health with medical diagnostic programs, entertainment, automation, user service, online retail, predictive maintenance, " +
+                "games, computer programs, security applications for systems information, robotics (helper robots), devices for reconnaissance handwriting and voice recognition.",
             image: AiGlobe
         }, {
-            subTitle: "DL",
-            title: "Deep learning",
-            content: "is a subcategory of Machine learning based on neural networks which allow the DL to learn from a large amount of data, making it more accurate",
-            image: Ches
-        }, {
-            subTitle: "NLP",
-            title: "Natural Language Processing",
-            content: "is a branch of AI that uses machine learning and Deep learning to translate the human form of communication to the machine, allowing the person’s message to be comprehended. One of the most common uses of the NLP is Speech recognition, which is when the machine converts the human voice into text data so that the computer can “understand” the command",
+            subTitle: "",
+            title: "How did it come about ?",
+            content: "Starting in the 1940s, research around this incipient science was developed just to try to find new functionalities for the computer, still in design. " +
+                "With the advent of World War II, the need also arose to develop technology to boost the war industry. Over time, several lines of study of AI have emerged, " +
+                "one of which is biology, which studies the development of concepts that are intended to imitate human neural networks. " +
+                "In fact, it was in the 60s when this science is called Artificial Intelligence and the biological line researchers believed that machines were possible to perform human tasks complex, like reasoning. " +
+                "After a difficult period, the study of neural networks returns to the surface in the 1980s, but it is in the 1990s that she has a great impetus, truly consolidating it as the basis of studies on AI." +
+                "Alan Turing is considered the father of Artificial Intelligence for being a pioneer in suggesting that machines could do what humans do: use available information to solve problems and make decision " +
+                "is was the structure of his article Computing Machinery and Intelligence, published in 1950 and in which the scientist discussed how to build intelligent machines and how to test this intelligence. " +
+                "In the article, Turing described an “imitation game”, where a human should be able to distinguish in written dialogue whether he is talking to a man or a machine. Over the years, the material has come " +
+                "to be known as “the first source of questioning the boundary between human and machine”. “The Imitation Game”, a film starring Benedict Cumberbatch, is a biography of Alan Turing. The film shows how the " +
+                "scientist solved the Enigma Code, which the Germans used during the war to transmit coded messages.",
             image: Ches
         }
         ],
         textwrapper: [
             {
-                title: "What is it for ?",
-                content: "Among the numerous objectives of artificial intelligence, the main one is to develop technologies that have the ability to simulate human actions and think logically.\n" +
-                    "And with that, create solutions for the most varied aspects of our life.\n" +
-                    "The modernization of companies is one of the most evident practical results of the use of these technologies.\n" +
-                    "However, there are many other areas enjoying those benefits, such as health with medical diagnostic programs, entertainment, automation, user service, online retail, predictive maintenance, games, computer programs, security applications for systems\n" +
-                    "information, robotics (helper robots), devices for reconnaissance\n" +
-                    "handwriting and voice recognition"
+                title: "Machine learning",
+                content: "is a line of study inside the AI umbrella, where the machine uses data to learn how to do a task without being specifically programmed to. The ML allows the computer to “learn” how to do a task in its most efficient way"
             }, {
-            title: "How did it come about ?",
-                content: "Starting in the 1940s, research around this incipient science was developed just to try to find new functionalities for the computer, still in design. With the advent of World War II, the need also arose to develop technology to boost the war industry.\n" +
-                    "Over time, several lines of study of AI have emerged, one of which is biology, which studies the development of concepts that are intended to imitate human neural networks.\n" +
-                    "In fact, it was in the 60s when this science is called Artificial Intelligence and the biological line researchers believed that machines were possible to perform human tasks complex, like reasoning.\n" +
-                    "After a difficult period, the study of neural networks returns to the surface in the 1980s, but it is in the 1990s that she has a great impetus, truly consolidating it as the basis of studies on AI.\n" +
-                    "Alan Turing is considered the father of Artificial Intelligence for being a pioneer in suggesting that machines could do what humans do: use available information to solve problems and make decisions. This was the structure of his article \"Computing Machinery and Intelligence\", published in 1950 and in which the scientist discussed how to build intelligent machines and how to test this intelligence.\n" +
-                    "In the article, Turing described an “imitation game”, where a human should be able to distinguish in written dialogue whether he is talking to a man or a machine. Over the years, the material has come to be known as “the first source of questioning the boundary between human and machine”.\n" +
-                    "\n" +
-                    "“The Imitation Game”, a film starring Benedict Cumberbatch, is a biography of Alan Turing. The film shows how the scientist solved the Enigma Code, which the Germans used during the war to transmit coded messages"
+                title: "Deep learning",
+                content: "is a subcategory of Machine learning based on neural networks which allow the DL to learn from a large amount of data, making it more accurate"
+            }, {
+                title: "Natural Language Processing",
+                content: "is a branch of AI that uses machine learning and Deep learning to translate the human form of communication to the machine, allowing the person’s message to be comprehended. One of the most common uses of the NLP is Speech recognition, which is when the machine converts the human voice into text data so that the computer can “understand” the command"
             }
         ],
         aiVideo: {
