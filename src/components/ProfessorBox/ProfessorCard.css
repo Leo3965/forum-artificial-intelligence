@@ -1,0 +1,30 @@
+.student-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 6rem;
+}
+
+.student-img {
+    width: 100%;
+}
+
+.student-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 6px;
+    height: 100px;
+    background-color: #3F1F55;
+    width: 100%;
+}
+
+.student-ra {
+    font-weight: 500;
+    color: #EF09DA;
+}

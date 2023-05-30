@@ -1,11 +1,15 @@
 import AiGlobe from "../imgs/ai-globe.svg";
 import Ches from "../imgs/pexels-kindel-media-8566474.jpg";
 import Robot1 from "../imgs/robot1.svg";
-import Robot2 from "../imgs/robot2.svg";
-import Robot3 from "../imgs/robot3.svg";
-import Robot4 from "../imgs/robot4.svg";
-import Robot5 from "../imgs/robot5.svg";
-import Robot6 from "../imgs/robot6.svg";
+import maria from "../imgs/maria.jpeg";
+import leo from "../imgs/leo.jpg";
+import natalia from "../imgs/natalia.png";
+import felipe from "../imgs/felipe.jpg";
+import luciano from "../imgs/luciano.jpg";
+import laura from "../imgs/laura.jpg";
+import kelen from "../imgs/kelen.jpg";
+import marina from "../imgs/marina.jpeg";
+import robotProf from "../imgs/robot-prof.jpg";
 
 const Portuguese = {
     header: {
@@ -30,33 +34,18 @@ const Portuguese = {
         },
         cards: [
             {
-                subTitle: "ML",
-                title: "Aprendizado de máquina",
-                content: "é uma linha de estudo dentro do guarda-chuva da IA, onde a máquina usa dados para aprender como realizar uma tarefa sem ser especificamente programada para isso. O ML permite que o computador “aprenda” como fazer uma tarefa da maneira mais eficiente",
-                image: AiGlobe
-            },
-            {
-                subTitle: "DL",
-                title: "Aprendizado profundo",
-                content: "é uma subcategoria de aprendizado de máquina baseado em redes neurais que permite que o DL aprenda com uma grande quantidade de dados, tornando-o mais preciso",
-                image: Ches
-            }, {
-                subTitle: "NLP",
-                title: "Processamento de linguagem natural",
-                content: "é um ramo da IA ​​que utiliza aprendizado de máquina e aprendizado profundo para traduzir a forma de comunicação humana para a máquina, permitindo que a mensagem da pessoa seja compreendida. Um dos usos mais comuns do NLP é o reconhecimento de fala, que é quando a máquina converte a voz humana em dados de texto para que o computador possa “entender” o comando",
-                image: Ches,
-            }
-        ],
-        textwrapper: [
-            {
+                subTitle: "",
                 title: "Para que serve ?",
                 content: "Dentre os inúmeros objetivos da inteligência artificial, o principal é desenvolver tecnologias que tenham a capacidade de simular ações humanas e pensar logicamente.\n" +
                     "E com isso criar soluções para os mais variados aspectos da nossa vida.\n" +
                     "A modernização das empresas é um dos resultados práticos mais evidentes do uso dessas tecnologias.\n" +
                     "Porém, existem muitas outras áreas usufruindo desses benefícios, como saúde com programas de diagnóstico médico, entretenimento, automação, atendimento ao usuário, varejo online, manutenção preditiva, jogos, programas de computador, aplicativos de segurança para sistemas\n" +
                     "informação, robótica (robôs auxiliares), dispositivos de reconhecimento\n" +
-                    "caligrafia e reconhecimento de voz"
-            }, {
+                    "caligrafia e reconhecimento de voz",
+                image: AiGlobe
+            },
+            {
+                subTitle: "",
                 title: "Como surgiu ?",
                 content: "A partir da década de 1940, as pesquisas em torno dessa ciência incipiente foram desenvolvidas apenas para tentar encontrar novas funcionalidades para o computador, ainda em projeto. Com o advento da Segunda Guerra Mundial, surgiu também a necessidade de desenvolver tecnologia para impulsionar a indústria bélica.\n" +
                     "Ao longo do tempo, surgiram diversas linhas de estudo da IA, sendo uma delas a biologia, que estuda o desenvolvimento de conceitos que visam imitar as redes neurais humanas.\n" +
@@ -65,20 +54,28 @@ const Portuguese = {
                     "Alan Turing é considerado o pai da Inteligência Artificial por ser um pioneiro ao sugerir que as máquinas poderiam fazer o que os humanos fazem: usar as informações disponíveis para resolver problemas e tomar decisões. Essa foi a estrutura de seu artigo \"Computing Machinery and Intelligence\", publicado em 1950 e no qual o cientista discutiu como construir máquinas inteligentes e como testar essa inteligência.\n" +
                     "No artigo, Turing descreveu um “jogo de imitação”, onde um humano deveria ser capaz de distinguir em um diálogo escrito se está falando com um homem ou com uma máquina. Ao longo dos anos, o material passou a ser conhecido como “a primeira fonte de questionamento da fronteira entre humano e máquina”.\n" +
                     "\n" +
-                    "“O Jogo da Imitação”, filme estrelado por Benedict Cumberbatch, é uma biografia de Alan Turing. O filme mostra como o cientista resolveu o Código Enigma, que os alemães usaram durante a guerra para transmitir mensagens codificadas"
+                    "“O Jogo da Imitação”, filme estrelado por Benedict Cumberbatch, é uma biografia de Alan Turing. O filme mostra como o cientista resolveu o Código Enigma, que os alemães usaram durante a guerra para transmitir mensagens codificadas",
+                image: Ches
+            }
+        ],
+        textwrapper: [
+            {
+                title: "Aprendizado de máquina",
+                content: "é uma linha de estudo dentro do guarda-chuva da IA, onde a máquina usa dados para aprender como realizar uma tarefa sem ser especificamente programada para isso. O ML permite que o computador “aprenda” como fazer uma tarefa da maneira mais eficiente"
+            }, {
+                title: "Aprendizado profundo",
+                content: "é uma subcategoria de aprendizado de máquina baseado em redes neurais que permite que o DL aprenda com uma grande quantidade de dados, tornando-o mais preciso"
             }
         ],
         aiVideo: {
-            title: "Etiam Nulla Lectus Amet Nunc",
-            content: "Neque, Puviram Vestiburum Non All quam",
-            video: "https://www.youtube.com/embed/6OKXZ0aF8UQ"
+            title: "O que é Inteligência Artificial?",
+            content: "A ficção científica certamente familiarizou o mundo com o conceito de inteligência artificial. Mas fora de Hollywood… o que é A.I. e o que ele pode realmente fazer?",
+            video: "https://www.youtube.com/embed/c0m6yaGlZh4"
         },
         article: {
-            title: "Etiam Nulla Lectus Amet",
+            title: "Aplicações de Inteligência Artificial",
             paragraphs: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis tempus velit, sit amet gravida velit iaculis ac. Nunc justo nisi, ullamcorper a pharetra sed, fringilla id velit. Curabitur vulputate augue a consequat suscipit. Praesent vulputate ac ante sit amet dapibus. Morbi tincidunt imperdiet nisl, sit amet vehicula neque. Donec dapibus sagittis est. Sed sit amet risus sed neque iaculis vestibulum eu vitae lacus. Ut pulvinar ultrices rutrum. In in scelerisque augue. Praesent eu justo eros. Praesent molestie, massa vel efficitur bibendum, risus lectus molestie sapien, quis posuere leo tellus vel dolor. Praesent lacinia vitae leo non accumsan.",
-                "Ut ornare hendrerit consequat. Vivamus vel nibh in risus efficitur luctus. Nullam commodo, libero eget accumsan consequat, nulla turpis sodales ligula, non laoreet neque neque ac odio. Nullam consectetur lacinia mauris eget pharetra. In dignissim molestie velit eu tincidunt. Proin vitae congue lorem, id dignissim lorem. Integer fermentum odio quis urna mollis vehicula. Suspendisse elementum lorem sit amet tristique tincidunt. Ut in purus quam. Sed at nisi volutpat, mattis mi vel, fringilla est. Quisque ligula ante, faucibus ac nibh ullamcorper, congue ornare felis. Quisque eu nibh fringilla, scelerisque lorem et, commodo dolor. Nulla facilisi. Fusce tellus magna, commodo nec orci in, placerat dapibus ex.",
-                "In in magna nec libero gravida aliquet eget dictum lectus. Nulla blandit sagittis ipsum, ac mollis urna egestas a. Integer faucibus odio vel sapien convallis, et finibus tellus tristique. Nulla facilisi. Maecenas felis dui, faucibus ut tellus non, malesuada fermentum mauris. Etiam in imperdiet velit. Sed sit amet nisl libero. Sed ultricies nisi at ligula tincidunt eleifend. Sed pharetra nulla id ligula aliquet dictum. Donec sit amet ante eleifend, placerat est ac, laoreet odio. Duis malesuada quam sit amet leo ultricies, a volutpat neque auctor. Fusce finibus non ligula sit amet pulvinar. Suspendisse blandit tincidunt nisl, et varius risus. Nunc eget elit ac libero finibus tincidunt non a sapien.",
+                "As aplicações da inteligência artificial são infinitas. A tecnologia pode ser aplicada em diversos setores e indústrias. A IA está sendo testada e usada no setor de saúde para sugerir dosagens de medicamentos, identificar tratamentos e auxiliar em procedimentos cirúrgicos na sala de cirurgia. Outros exemplos de máquinas com inteligência artificial incluem computadores que jogam xadrez e carros autônomos. Cada uma dessas máquinas deve pesar as consequências de qualquer ação que realizar, pois cada ação afetará o resultado final. No xadrez, o resultado final é ganhar o jogo. Para carros autônomos, o sistema de computador deve contabilizar todos os dados externos e computá-los para agir de forma a evitar uma colisão. A inteligência artificial também tem aplicações no setor financeiro, onde é usada para detectar e sinalizar atividades bancárias e financeiras, como uso incomum de cartão de débito e grandes depósitos em contas – tudo isso ajuda o departamento de fraude de um banco. Os aplicativos para IA também estão sendo usados ​​para ajudar a simplificar e facilitar a negociação. Isso é feito facilitando a estimativa de oferta, demanda e precificação de títulos.",
             ]
         }
     },
@@ -92,42 +89,53 @@ const Portuguese = {
             {
                 name: "Leonardo Oliveira Freitas",
                 ra: 819143458,
-                photo: Robot1
-            },
-            {
-                name: "Nathália Cristina de Oliveira Bastos",
-                ra: 822160984,
-                photo: Robot2
+                photo: leo
             },
             {
                 name: "Felipe Rocha Pereira",
                 ra: 819166993,
-                photo: Robot3
+                photo: felipe
+            },
+            {
+                name: "Nathália Cristina de Oliveira Bastos",
+                ra: 822160984,
+                photo: natalia
             },
             {
                 name: "Luciano Souza Santos",
                 ra: 819120717,
-                photo: Robot4
-            },
-            {
-                name: "Juliana",
-                ra: 0,
-                photo: Robot5
+                photo: luciano
             },
             {
                 name: "Marina Francischetti Mariano",
                 ra: 12522196868,
-                photo: Robot5
+                photo: marina
+            },
+            {
+                name: "Juliana Reis de Souza",
+                ra: 819226027,
+                photo: Robot1
             },
             {
                 name: "Laura Nascimento Carvalho",
                 ra: 125221101241,
-                photo: Robot6
+                photo: laura
             },
             {
                 name: "Maria Luiza Moreira Pereira",
                 ra: 12522196940,
-                photo: Robot6
+                photo: maria
+            }
+        ],
+        professorTitle: "Professoras",
+        professors: [
+            {
+                name: "Kelen Cistina Sant Anna de Lima",
+                photo: kelen
+            },
+            {
+                name: "Silvana Diniz",
+                photo: robotProf
             }
         ]
     }
