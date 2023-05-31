@@ -11,6 +11,7 @@
 }
 
 .icon__ai {
+    cursor: pointer;
     height: 30px;
     min-width: 30px;
     color: #ACACAC;
